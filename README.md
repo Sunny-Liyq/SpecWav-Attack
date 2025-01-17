@@ -64,8 +64,16 @@ SpecWav-Attack/
    ```
 2. Install dependencies:
     ```bash
+    ./00_install.sh
+    source env.sh
     pip install -r requirements.txt
     ```
+3. For details on initial environment setup, please refer to VoicePrivacy2024(https://github.com/Voice-Privacy-Challenge/Voice-Privacy-Challenge-2024)
+
+
+### Download data
+Contestants can receive download data email.
+
 
 ### Training 
 To train the SpecWav-Attack model:
@@ -92,4 +100,16 @@ If you use SpecWav-Attack in your research, please cite:
   year={2025}
 }
 
+```
+
+## Reference
+```css
+@article{tomashenko2024voiceprivacy,
+      title={The {VoicePrivacy} 2024 Challenge Evaluation Plan}, 
+      author={Natalia Tomashenko and Xiaoxiao Miao and Pierre Champion and Sarina Meyer and Xin Wang and Emmanuel Vincent and Michele Panariello and Nicholas Evans and Junichi Yamagishi and Massimiliano Todisco},
+      year={2024},
+      eprint={2404.02677},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
 ```
